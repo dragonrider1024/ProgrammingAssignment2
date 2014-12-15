@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+# create a new type "makeCacheMatrix" from the regular matrix x
 
 makeCacheMatrix <- function(x = matrix()) {
 	invmatrix <- NULL
@@ -17,6 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+# calculate the inverse of regular matrix from the new type makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
